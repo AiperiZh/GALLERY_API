@@ -32,7 +32,7 @@
 
 ### 🔹 1. Клонирование репозитория
 ```bash
-git clone <ссылка-на-репозиторий>
+git clone git@github.com:AiperiZh/GALLERY_API.git
 cd image_gallery
 🔹 2. Создание виртуального окружения
 bash
@@ -46,13 +46,6 @@ pip install -r requirements.txt
 🔹 4. Создание файла .env в корне проекта
 bash
 Copy code
-SECRET_KEY=dev-secret-key-change-me
-
-DB_NAME=image_gallery_db
-DB_USER=hello
-DB_PASSWORD=your_password
-DB_HOST=localhost
-DB_PORT=5432
 
 # Cloudinary credentials (из Dashboard)
 CLOUDINARY_URL=cloudinary://API_KEY:API_SECRET@CLOUD_NAME
